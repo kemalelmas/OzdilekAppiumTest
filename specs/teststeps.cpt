@@ -1,0 +1,49 @@
+Created by testinium on 23.05.2022
+
+This is a concept file with following syntax for each concept.
+#Get Started
+* "3" kadar bekle
+* Elementi "//*[@text='ALIŞVERİŞE BAŞLA']" bul ve "ALIŞVERİŞE BAŞLA" değerini kontrol et
+#Shopping Area
+* "5" kadar bekle
+* "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" İd'li elemente tıkla
+* "5" kadar bekle
+* Elementi "//*[@text='Ara']" bul ve "Ara" değerini kontrol et
+* "5" kadar bekle
+#Categories
+* "com.ozdilek.ozdilekteyim:id/nav_categories" İd'li elemente tıkla
+* "5" kadar bekle
+* Elementi "//*[@text='Ev Tekstili']" bul ve "Ev Tekstili" değerini kontrol et
+* "5" kadar bekle
+#Selecting Options
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][2]" xpath'li elemente tıkla
+* "5" kadar bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][10]" xpath'li elemente tıkla
+* "5" kadar bekle
+#Swiping
+* Sayfayı yukarı kaydır
+* "5" kadar bekle
+* Sayfayı yukarı kaydır
+* "5" kadar bekle
+#Random Product Selection And Adding Favourites
+* Rastgele ürün seç ve "5" saniye bekle
+* Elementi "//*[@text='SEPETE EKLE']" bul ve "SEPETE EKLE" değerini kontrol et
+* "5" kadar bekle
+* "com.ozdilek.ozdilekteyim:id/relLayFav" İd'li elemente tıkla
+* "5" kadar bekle
+#Login Area
+* Elementi "//*[@text='Giriş Yap']" bul ve "Giriş Yap" değerini kontrol et
+* "5" kadar bekle
+* "com.ozdilek.ozdilekteyim:id/etEposta" İd'li elemente "kemalelmas03@gmail.com" değerini yaz
+* "5" kadar bekle
+* "com.ozdilek.ozdilekteyim:id/etPassword" İd'li elemente "izmit41" değerini yaz
+#Throwbacking
+* "5" kadar bekle
+*"com.ozdilek.ozdilekteyim:id/ivBack" İd'li elemente tıkla
+* "5" kadar bekle
+* "com.ozdilek.ozdilekteyim:id/ivBack" İd'li elemente tıkla
+* "5" kadar bekle
+#End Of The Test
+* Rastgele ürün seç ve "5" saniye bekle
+* "com.ozdilek.ozdilekteyim:id/cardAddToCart" İd'li elemente tıkla
+* "5" kadar bekle
